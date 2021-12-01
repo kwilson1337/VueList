@@ -1,0 +1,19 @@
+button {
+    cursor: pointer;
+  
+    &.primary {
+      padding: 8px 20px;
+      color: #7b448a;
+      font-size: 24px;
+      border-radius: 4px;
+      background-color: transparent;
+      border: 1px solid #7b448a;
+
+      &.-purple {
+        color: #7b448a;
+        background-color: #fff;
+        border-color: #fff;
+        font-size: 14px;
+      }
+    }
+  }
